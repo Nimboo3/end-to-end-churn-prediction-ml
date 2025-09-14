@@ -23,11 +23,11 @@ Customer churn impacts revenue durability. This project delivers a clear analyti
 - Practitioner-oriented structure that can be extended into a reproducible ML pipeline without refactoring.
 
 ---
-## 🧩 Problem Statement
+## Problem Statement
 Churned customers require replacement through costly acquisition. Early identification of accounts trending toward churn enables targeted retention actions that improve lifetime value and reduce leakage.
 
 ---
-## 🎯 Objectives (Current Scope)
+## Objectives (Current Scope)
 | Area | Objective |
 |------|-----------|
 | Data | Provide a unified customer foundation for churn segmentation |
@@ -49,11 +49,11 @@ Representative fields:
 These feed risk segmentation and dashboard aggregation.
 
 ---
-## 🏗 High-Level Flow (Planned Extension)
+## High-Level Flow (Planned Extension)
 Data (Excel) → Transformation → (Future) Model Training → Scoring Output → Dashboards
 
 ---
-## 🎯 Risk Banding Framework
+## Risk Banding Framework
 | Probability | Band | Action Focus |
 |-------------|------|-------------|
 | ≥ 0.75 | Critical | Immediate retention intervention |
@@ -72,12 +72,9 @@ Showcased views:
 - Segmentation & drill‑through
 
 ---
-## 📈 Future ML Extension
+## Future ML Extension
 Next layer adds: model training (baseline → ensemble), probability calibration, explainability exports, and drift monitoring.
 
----
-
-```
 
 ---
 Planned (next milestone) will introduce `data/`, `src/`, `artifacts/`, and `reports/` directories as the modeling layer is added.
