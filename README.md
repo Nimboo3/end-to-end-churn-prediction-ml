@@ -89,7 +89,7 @@ ROC / PR curves · Lift chart · Calibration plot · SHAP drivers · Drift summa
 
 
 ---
-## 🗺 Upcoming Enhancements
+## Upcoming Enhancements
 - Add requirements file & environment definition
 - Commit ingestion + feature engineering modules
 - Baseline model & risk scoring export
